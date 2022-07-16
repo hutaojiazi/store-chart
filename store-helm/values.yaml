@@ -9,6 +9,11 @@ image:
   tag: 0.1
   pullPolicy: IfNotPresent
 
+imageCredentials:
+  registry: docker.io/hutaojiazidocker/h365
+  username: hutaojiazidocker
+  password: xm05tt09A!
+
 service:
   type: ClusterIP
   port: 80
