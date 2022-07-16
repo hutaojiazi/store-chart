@@ -28,10 +28,6 @@ spec:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          command:
-            - /bin/sh
-            - "-c"
-            - "sleep 60m"
           ports:
             - name: http
               containerPort: 80
