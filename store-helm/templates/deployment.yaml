@@ -34,15 +34,15 @@ spec:
               protocol: TCP
           livenessProbe:
             httpGet:
-              path: /api/products
+              path: /
               port: http
-            initialDelaySeconds: 300
+            initialDelaySeconds: 30
             periodSeconds: 3
           readinessProbe:
             httpGet:
-              path: /api/products
+              path: /
               port: http
-            initialDelaySeconds: 300
+            initialDelaySeconds: 30
             periodSeconds: 3
           resources:
 {{ toYaml .Values.resources | indent 12 }}
