@@ -1,4 +1,4 @@
-# Default values for store-chart.
+# Default values for store-helm.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
@@ -6,8 +6,8 @@ replicaCount: 1
 
 image:
   repository: hub.docker.com/repository/docker/hutaojiazidocker/h365
-  pullPolicy: IfNotPresent
   tag: 0.1
+  pullPolicy: IfNotPresent
 
 service:
   type: ClusterIP
