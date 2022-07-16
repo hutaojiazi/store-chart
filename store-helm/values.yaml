@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: docker.io/hutaojiazidocker/h365
-  tag: 0.2
+  tag: 0.4
   pullPolicy: IfNotPresent
 
 imagePullSecrets:
