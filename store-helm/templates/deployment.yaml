@@ -32,7 +32,6 @@ spec:
             - /bin/sh
             - "-c"
             - "sleep 60m"
-          restartPolicy: Never
           ports:
             - name: http
               containerPort: 5000
