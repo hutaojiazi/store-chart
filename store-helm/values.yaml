@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: hub.docker.com/repository/docker/hutaojiazidocker/h365
+  repository: docker.io/hutaojiazidocker/h365
   tag: 0.1
   pullPolicy: IfNotPresent
 
